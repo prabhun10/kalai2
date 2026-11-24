@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalaifashion2 — Celebrate Tradition. Wear Elegance.</title>
+    <meta name="description" content="Discover handcrafted South Indian Kanchipuram, Banarasi, and Cotton Sarees alongside timeless traditional Dhoti & Kurta menswear at Kalaifashion2." />
+    <meta property="og:title" content="Kalaifashion2 — Traditional Indian Sarees & Menswear" />
+    <meta property="og:description" content="Discover beautiful sarees and timeless traditional menswear." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand-wordmark">Kalaifashion2</a>
+
+        <nav class="primary-nav" aria-label="Main navigation">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="sarees.html" class="nav-link">Sarees</a>
+          <a href="dhoti-kurta.html" class="nav-link">Dhoti &amp; Kurta</a>
+          <a href="sarees.html?filter=new-arrivals" class="nav-link">New Arrivals</a>
+          <a href="sarees.html?filter=best-sellers" class="nav-link">Best Sellers</a>
+          <a href="about.html" class="nav-link">About Us</a>
+          <a href="contact.html" class="nav-link">Contact Us</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="cart.html" class="cart-nav-btn" aria-label="Shopping Cart">
+            <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
+            <span>Cart (<span class="cart-count" data-cart-count>0</span>)</span>
+          </a>
+          <button type="button" id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open navigation menu" aria-expanded="false">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div id="mobile-drawer-backdrop" class="mobile-drawer-backdrop"></div>
+    <aside id="mobile-drawer" class="mobile-drawer" aria-label="Mobile navigation">
+      <div class="mobile-drawer-head">
+        <span class="brand-wordmark">Kalaifashion2</span>
+        <button type="button" id="mobile-drawer-close" class="mobile-drawer-close" aria-label="Close navigation menu">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </div>
+      <nav class="mobile-nav-list">
+        <a href="index.html" class="mobile-nav-link">Home</a>
+        <a href="sarees.html" class="mobile-nav-link">Sarees Collection</a>
+        <a href="dhoti-kurta.html" class="mobile-nav-link">Dhoti &amp; Kurta</a>
+        <a href="sarees.html?filter=new-arrivals" class="mobile-nav-link">New Arrivals</a>
+        <a href="sarees.html?filter=best-sellers" class="mobile-nav-link">Best Sellers</a>
+        <a href="about.html" class="mobile-nav-link">About Us</a>
+        <a href="contact.html" class="mobile-nav-link">Contact Us</a>
+        <a href="cart.html" class="mobile-nav-link">Shopping Cart (<span data-cart-count>0</span>)</a>
+      </nav>
+    </aside>
+
+    <main>
+      <!-- Hero Banner -->
+      <section class="hero-section">
+        <div class="hero-media">
+          <img
+            src="/src/assets/images/hero_south_indian_silk_1795518960922.jpg"
+            alt="Model draped in deep maroon and antique gold Kanchipuram silk saree"
+            referrerpolicy="no-referrer"
+            data-fallback-title="Kalaifashion2 Heritage Silk"
+          />
+          <div class="hero-scrim"></div>
+        </div>
+        <div class="container">
+          <div class="hero-content">
+            <span class="hero-kicker">Kalaifashion2 · South Indian Heritage Textiles</span>
+            <h1 class="hero-title">Celebrate Tradition. Wear Elegance.</h1>
+            <p class="hero-subtitle">Discover beautiful sarees and timeless traditional menswear.</p>
+            <div class="hero-cta-row">
+              <a href="sarees.html" class="btn btn-light">Shop Sarees</a>
+              <a href="dhoti-kurta.html" class="btn btn-outline-light">Shop Dhoti &amp; Kurta</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Collections -->
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="section-kicker">Curated Departments</span>
+              <h2 class="section-title">Featured Collections</h2>
+            </div>
+          </div>
+
+          <div class="collections-grid">
+            <article class="collection-card">
+              <div class="collection-card-body">
+                <div>
+                  <div class="collection-card-kicker">Category 01</div>
+                  <h3 class="collection-card-title">Sarees Collection</h3>
+                  <p class="collection-card-copy">
+                    From heirloom Kanchipuram and Banarasi silks to breathable Chettinad cottons, bridal weaves, and graceful daily drapes.
+                  </p>
+                </div>
+                <div>
+                  <a href="sarees.html" class="btn btn-primary">Explore Sarees</a>
+                </div>
+              </div>
+              <div class="collection-card-media">
+                <img
+                  src="/src/assets/images/saree_kanchipuram_maroon_1795518961348.jpg"
+                  alt="Kanchipuram pure silk maroon saree with gold zari border"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                  data-fallback-title="Sarees Collection"
+                />
+              </div>
+            </article>
+
+            <article class="collection-card">
+              <div class="collection-card-body">
+                <div>
+                  <div class="collection-card-kicker">Category 02</div>
+                  <h3 class="collection-card-title">Dhoti &amp; Kurta</h3>
+                  <p class="collection-card-copy">
+                    Traditional white kasavu veshtis, pure silk dhotis, coordinated shirt combos, and tailored wedding kurta sets.
+                  </p>
+                </div>
+                <div>
+                  <a href="dhoti-kurta.html" class="btn btn-primary">Explore Menswear</a>
+                </div>
+              </div>
+              <div class="collection-card-media">
+                <img
+                  src="/src/assets/images/dhoti_kurta_wedding_1795518963588.jpg"
+                  alt="Traditional ivory silk dhoti with maroon brocade kurta and angavastram"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                  data-fallback-title="Dhoti & Kurta Collection"
+                />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Best Sellers -->
+      <section class="section section-sand">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="section-kicker">Most Loved Pieces</span>
+              <h2 class="section-title">Best-Selling Products</h2>
+            </div>
+            <a href="sarees.html?filter=best-sellers" class="text-link">
+              View All Best Sellers <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div id="home-best-sellers" class="products-grid"></div>
+        </div>
+      </section>
+
+      <!-- New Arrivals -->
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="section-kicker">Fresh Off the Loom</span>
+              <h2 class="section-title">New Arrivals</h2>
+            </div>
+            <a href="sarees.html?filter=new-arrivals" class="text-link">
+              Explore New Arrivals <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div id="home-new-arrivals" class="products-grid"></div>
+        </div>
+      </section>
+
+      <!-- Special Offers Banner -->
+      <section class="section" style="padding-top: 0;">
+        <div class="container">
+          <div class="offer-banner">
+            <div class="offer-banner-content">
+              <span class="section-kicker">Festive &amp; Wedding Trousseau</span>
+              <h2 class="offer-banner-title">Special Offers on Bridal &amp; Ceremonial Sets</h2>
+              <p class="offer-banner-copy">
+                Enjoy up to 16% savings on selected Muhurtham sarees and coordinated wedding dhoti-kurta ensembles, plus complimentary shipping on orders above ₹4,999.
+              </p>
+              <div class="offer-banner-actions">
+                <a href="sarees.html?filter=offers" class="btn btn-light">Shop Saree Offers</a>
+                <a href="dhoti-kurta.html?filter=offers" class="btn btn-outline-light">Shop Menswear Offers</a>
+              </div>
+            </div>
+            <div class="offer-banner-media">
+              <img
+                src="/src/assets/images/saree_bridal_crimson_1795518962386.jpg"
+                alt="Vermilion crimson bridal Kanchipuram silk saree"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+                data-fallback-title="Festive Offers"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Craftsmanship & Customer Testimonials -->
+      <section class="section section-sand">
+        <div class="container">
+          <div class="craft-split">
+            <div class="craft-media">
+              <img
+                src="/src/assets/images/craft_handloom_zari_1795518969206.jpg"
+                alt="South Indian silk handloom weaving with maroon mulberry silk and gold zari"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+                data-fallback-title="Handloom Craftsmanship"
+              />
+            </div>
+            <div>
+              <span class="section-kicker">Textile Integrity</span>
+              <h2 class="section-title">Woven with Patience, Styled for Today</h2>
+              <p class="section-subtitle">
+                Every Kalaifashion2 garment is selected for authentic yarn quality, balanced zari lustre, and comfortable all-day drape.
+              </p>
+              <ul class="craft-points">
+                <li class="craft-point">
+                  <strong>Direct Loom Curation</strong>
+                  <span>Rich mulberry silks, Katan brocades, and breathable handloom cottons sourced with care.</span>
+                </li>
+                <li class="craft-point">
+                  <strong>Personal WhatsApp Styling</strong>
+                  <span>Request live drape photos, blouse pairing advice, or custom dhoti-shirt sizing before you order.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="testimonials-grid">
+            <article class="testimonial-card">
+              <p class="testimonial-quote">
+                “The temple maroon Kanchipuram saree draped beautifully for my sister’s engagement. The zari sheen looked even richer in natural daylight than in photos.”
+              </p>
+              <div class="testimonial-author">
+                <span class="testimonial-name">Meenakshi Sundaram</span>
+                <span class="testimonial-meta">Chennai · Kanchipuram Temple Silk Saree</span>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <p class="testimonial-quote">
+                “Ordered two ivory kasavu dhoti and raw silk shirt sets via WhatsApp for our family wedding. Sizing guidance was spot-on and delivery arrived neatly boxed.”
+              </p>
+              <div class="testimonial-author">
+                <span class="testimonial-name">Karthikeyan Ramanathan</span>
+                <span class="testimonial-meta">Coimbatore · Kasavu Dhoti &amp; Shirt Set</span>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <p class="testimonial-quote">
+                “I love how light and crisp the Chettinad cotton sarees feel. They stay neatly pleated from morning prayers through evening family gatherings.”
+              </p>
+              <div class="testimonial-author">
+                <span class="testimonial-name">Priyadharshini Natarajan</span>
+                <span class="testimonial-meta">Madurai · Chettinad Cotton Saree</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Instagram Gallery -->
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="section-kicker">@kalaifashion2</span>
+              <h2 class="section-title">Styled on Instagram</h2>
+              <p class="section-subtitle">Explore recent drapes, festive menswear pairings, and handloom details from our feed.</p>
+            </div>
+            <a href="https://www.instagram.com/kalaifashion2/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i> Follow Us
+            </a>
+          </div>
+
+          <div id="instagram-gallery-grid" class="instagram-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a href="index.html" class="footer-brand">Kalaifashion2</a>
+            <p class="footer-copy">
+              Celebrating South Indian heritage textiles with curated Kanchipuram &amp; Banarasi sarees and classic dhoti &amp; kurta menswear.
+            </p>
+            <div class="social-row">
+              <a href="https://www.instagram.com/kalaifashion2/" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="Kalaifashion2 on Instagram">
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="Kalaifashion2 on WhatsApp">
+                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="footer-heading">Collections</h3>
+            <ul class="footer-links">
+              <li><a href="sarees.html">Sarees Collection</a></li>
+              <li><a href="dhoti-kurta.html">Dhoti &amp; Kurta</a></li>
+              <li><a href="sarees.html?filter=new-arrivals">New Arrivals</a></li>
+              <li><a href="sarees.html?filter=best-sellers">Best Sellers</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer-heading">Boutique</h3>
+            <ul class="footer-links">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="cart.html">Shopping Cart</a></li>
+              <li><a href="https://www.instagram.com/kalaifashion2/" target="_blank" rel="noopener noreferrer">Instagram (@kalaifashion2)</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer-heading">Contact Details</h3>
+            <ul class="footer-links">
+              <li>WhatsApp: +91 98765 43210</li>
+              <li>Email: orders@kalaifashion2.example</li>
+              <li>Region: Tamil Nadu, India</li>
+              <li>Orders via WhatsApp Concierge</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>&copy; 2026 Kalaifashion2. All rights reserved.</span>
+          <span>Traditional Sarees &amp; Men’s Dhoti Kurta</span>
+        </div>
+      </div>
+    </footer>
+
+    <a id="floating-whatsapp-btn" href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="Chat with Kalaifashion2 on WhatsApp">
+      <i class="fa-brands fa-whatsapp fa-lg" aria-hidden="true"></i>
+      <span>WhatsApp Us</span>
+    </a>
+
+    <script defer src="/js/products.js"></script>
+    <script defer src="/js/cart.js"></script>
+    <script defer src="/js/main.js"></script>
+  </body>
+</html>

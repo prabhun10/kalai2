@@ -1,0 +1,188 @@
+/* ==========================================================================
+   Kalaifashion2 — Responsive Breakpoints
+   ========================================================================== */
+
+@media (max-width: 1120px) {
+  .primary-nav {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: inline-flex;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .filter-controls-row,
+  .filter-controls-row--6 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .instagram-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .collections-grid,
+  .offer-banner,
+  .craft-split,
+  .pdp-layout,
+  .cart-layout,
+  .about-story-grid,
+  .contact-grid,
+  .quick-view-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pdp-gallery,
+  .cart-summary-panel {
+    position: static;
+  }
+
+  .testimonials-grid,
+  .pillars-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .offer-banner-content {
+    padding: 32px 24px;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --header-height: 58px;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .section {
+    padding: 48px 0;
+  }
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .brand-wordmark {
+    font-size: 22px;
+  }
+
+  .header-inner {
+    gap: 12px;
+  }
+
+  .cart-nav-btn {
+    padding: 7px 12px;
+    min-height: 36px;
+    font-size: 13px;
+  }
+
+  .hero-section {
+    min-height: 500px;
+  }
+
+  .hero-scrim {
+    background: linear-gradient(
+      180deg,
+      rgba(28, 14, 10, 0.45) 0%,
+      rgba(28, 14, 10, 0.85) 68%,
+      rgba(28, 14, 10, 0.94) 100%
+    );
+  }
+
+  .hero-content {
+    padding: 56px 0;
+  }
+
+  .collection-card {
+    grid-template-columns: 1fr;
+  }
+
+  .collection-card-body {
+    padding: 24px 20px;
+  }
+
+  .collection-card-media {
+    min-height: 240px;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .quick-view-trigger {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .filter-controls-row,
+  .filter-controls-row--6 {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-item-row {
+    grid-template-columns: 76px 1fr;
+    gap: 14px;
+  }
+
+  .cart-item-total {
+    grid-column: 1 / -1;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    border-top: 1px dashed var(--border-hairline);
+  }
+
+  .form-row-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .instagram-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .floating-whatsapp {
+    right: 16px;
+    bottom: 16px;
+    height: 44px;
+    padding: 0 14px;
+    font-size: 13px;
+  }
+
+  .floating-whatsapp span {
+    display: none;
+  }
+
+  .floating-whatsapp {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    justify-content: center;
+  }
+}
